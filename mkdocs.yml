@@ -1,5 +1,5 @@
-site_name: Mkdocs Demo
-site_url: https://mydomain.org/mysite
+site_name: Stevedev7
+site_url: https://stevedev7.github.io/mkdocs-101/
 theme:
   name: material
   logo: assets/images/logo.png
@@ -21,3 +21,6 @@ theme:
         name: Switch to system preference
 extra_css:
   - assets/stylesheets/extra.css
+markdown_extensions:
+  - toc:
+      permalink: "#"
